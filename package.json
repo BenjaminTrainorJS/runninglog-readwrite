@@ -1,0 +1,19 @@
+{
+  "name": "runninglog-readwrite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --checkAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminTrainorJS/runninglog-readwrite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenjaminTrainorJS/runninglog-readwrite/issues"
+  },
+  "homepage": "https://github.com/BenjaminTrainorJS/runninglog-readwrite#readme"
+}
