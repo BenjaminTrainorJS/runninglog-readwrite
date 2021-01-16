@@ -8,7 +8,7 @@
     "eslint": "eslint .",
     "lint:fix": "eslint . --fix",
     "start": "node index.js",
-    "test": "jest --checkAll"
+    "test": "jest --verbose --watchAll"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "eslint": "7.9.0",
     "eslint-config-eda": "0.1.4",
     "jest": "^26.6.3",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.1"
   }
 }
