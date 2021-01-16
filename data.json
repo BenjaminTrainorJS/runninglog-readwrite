@@ -1,7 +1,16 @@
 {
-  "1": {
-    "day": "Monday",
-    "duration": 70,
-    "effort": "easy recovery pace"
-  }
+  "session": [
+    {
+      "1": {
+        "day": "Monday",
+        "duration": 70,
+        "effort": "Easy recovery pace"
+      }
+  },{
+      "2": {
+        "day": "Tuesday",
+        "duration": 90,
+        "effort": "Aerobic steady pace"
+      }
+  }]
 }
