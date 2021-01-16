@@ -11,9 +11,9 @@ server.set('view engine', 'hbs')
 
 server.use(express.static('public'))
 
+// Routes
+const routes = require('./routes')
 
-server.get('/', (req, res) => {
-  res.render('home')
-})
+server.use('/', routes)
 
 module.exports = server
