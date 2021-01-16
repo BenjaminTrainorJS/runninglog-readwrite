@@ -4,10 +4,10 @@ const router = express.Router()
 
 // GET route
 router.get('/', (req, res) => {
-  res.render('home',)
+  res.render('home')
 })
 
 // POST route
-router.post('/', )
+router.post('/')
 
 module.exports = router
