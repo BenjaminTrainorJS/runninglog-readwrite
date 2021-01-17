@@ -1,17 +1,35 @@
 <header><h1>Haere mai/Welcome!</h1></header>
 <p>Here you can save your running data:</p>
-<form action="" method="POST">
-  <label for="day" class="form-item">
+<form action="/submit" method="post">
+  <label for="day">
     Day of run:
-    <input type="text" name="day" placeholder="Monday">
+    <select name="day">
+      <option value="Monday">Monday</option>
+      <option value="Tuesday">Tuesday</option>
+      <option value="Wednesday">Wednesday</option>
+      <option value="Thursday">Thursday</option>
+      <option value="Friday">Friday</option>
+      <option value="Saturday">Saturday</option>
+      <option value="Sunday">Sunday</option>
+    </select>
   </label>
   <label for="duration" class="form-item">
     Duration of run in minutes:
     <input type="text" name="duration" placeholder="60">
   </label>
-  <label for="effort" class="form-item">
+  {{!-- <label for="effort" class="form-item">
     Effort of run:
     <input type="text" name="effort" placeholder="Aerobic steady pace">
+  </label> --}}
+  <label for="effort">
+    Effort of run:
+    <select name="effort">
+      <option value="Easy Recovery">Easy Recovery</option>
+      <option value="Easy Aerobic">Easy Aerobic</option>
+      <option value="Aerobic">Aerobic</option>
+      <option value="Steady Aerobic">Steady Aerobic</option>
+      <option value="Threshold">Threshold</option>
+    </select>
   </label>
   <input type="submit" name="" value="Submit your running data" class="button-primary">
 </form>

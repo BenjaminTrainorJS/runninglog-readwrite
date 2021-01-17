@@ -1,3 +1,4 @@
+const { urlencoded } = require('express')
 const express = require('express')
 const hbs = require('express-handlebars')
 
@@ -8,6 +9,7 @@ server.engine('hbs', hbs({
   extname: 'hbs'
 }))
 server.set('view engine', 'hbs')
+server.use(express.urlencoded({extended: false}))
 
 server.use(express.static('public'))
 
